@@ -83,3 +83,4 @@ C:\Users\danny\source\repos\WebAPIDemoApp\DemoAPI\obj\Debug\DemoAPI.csproj.CoreC
 C:\Users\danny\source\repos\WebAPIDemoApp\DemoAPI\obj\Debug\DemoAPI.csproj.CopyComplete
 C:\Users\danny\source\repos\WebAPIDemoApp\DemoAPI\obj\Debug\DemoAPI.dll
 C:\Users\danny\source\repos\WebAPIDemoApp\DemoAPI\obj\Debug\DemoAPI.pdb
+C:\Users\danny\source\repos\WebAPIDemoApp\DemoAPI\bin\Documentation.xml

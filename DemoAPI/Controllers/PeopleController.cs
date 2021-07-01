@@ -8,6 +8,9 @@ using System.Web.Http;
 
 namespace DemoAPI.Controllers
 {
+    /// <summary>
+    /// This is where I give you all the information about my peeps.
+    /// </summary>
     public class PeopleController : ApiController
     {
         List<Person> people = new List<Person>();
@@ -19,7 +22,10 @@ namespace DemoAPI.Controllers
             people.Add(new Person { FirstName = "Bilbo", LastName = "Baggins", Id = 3 });
         }
 
-        // This is a route that only gets the first names (This is case insensitive, so in Postman you don't need to worry about capitalization in the URL)
+        /// <summary>
+        /// Gets a list of the first names of all users. This is a custom route that only gets the first names (This is case insensitive, so in Postman you don't need to worry about capitalization in the URL)
+        /// </summary>
+        /// <returns>This returns a list of first names</returns>
         [Route("api/People/GetFirstNames")]
         [HttpGet]
         public List<string> GetFirstNames()
